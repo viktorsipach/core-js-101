@@ -492,11 +492,7 @@ function getMatrixProduct(/* m1, m2 */) {
  *    [    ,   ,    ]]
  *
  */
-function evaluateTicTacToePosition(positions) {
-  const position = [];
-  positions.forEach((el) => {
-    position.push(el.flat());
-  });
+function evaluateTicTacToePosition(position) {
   const lines = [
     [0, 1, 2],
     [3, 4, 5],
